@@ -1,11 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jakarta+Sans:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jetbrains+Mons:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jetbrains+Mono:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   box-sizing: border-box;
@@ -13,17 +14,12 @@
   margin: 0;
 }
 
-body {
-  background: var(--background-primary);
-}
 
 /**
  * COLORS: Primary, Secondary, Tertiary, Primary Accent, Secondary Accent, Danger, Invert, and Hover for each
  * Background, Border, Outline, Text
 */
 :root {
-  
-  
 }
 
 body {
@@ -36,7 +32,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: var(--background-primary);
+  background: rgb(var(--background-primary));
 }
 
 code {
