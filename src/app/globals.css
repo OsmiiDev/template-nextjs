@@ -20,23 +20,6 @@
  * Background, Border, Outline, Text
 */
 :root {
-  /* #09090b */ --background-primary: 9, 9, 11;
-  /* #121215 */ --background-secondary: 18, 18, 21;
-  /* #18181b */ --background-tertiary: 24, 24, 27;
-  /* #fafafa */ --background-invert: 250, 250, 250;
-  /* #e4e4e7 */ --background-invert-hover: 228, 228, 231;
-  /* #6366f1 */ --background-accent: 99, 102, 241;
-  /* #4f46e5 */ --background-accent-hover: 79, 70, 229;
-
-  /* #52525b */ --border-primary: 82, 82, 91;
-  /* #27272a */ --border-secondary: 39, 39, 42;
-
-  /* #fafafa */ --text-primary: 250, 250, 250;
-  /* #a1a1aa */ --text-secondary: 161, 161, 170;
-  /* #3b82f6 */ --text-accent: 59, 130, 246;
-  /* #8b5cf6 */ --text-accent-secondary: 139, 92, 246;
-  /* #18181b */ --text-invert: 24, 24, 27;
-
 }
 
 body {
