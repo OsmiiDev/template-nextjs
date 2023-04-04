@@ -1,0 +1,35 @@
+div.cell {
+    @apply rounded-lg border border-primary bg-[rgba(var(--background-secondary-color),0.6)];
+
+    float: left;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 0 10px 5px rgba(var(--border-primary-color), 0.3), inset 0 -2px 4px 2px rgba(var(--border-primary-color), 0.2);
+}
+
+div.message {
+    animation: enter 200ms ease-in-out forwards;
+}
+
+@keyframes enter {
+    0% {
+        transform: translateY(10px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+div.separator {
+    background-image: linear-gradient(
+        to bottom, 
+        rgba(var(--border-primary-color),0) 0%,
+        rgba(var(--border-primary-color),0) 5%,
+        var(--border-primary) 20%, 
+        var(--border-primary) 60%, 
+        rgba(var(--border-primary-color),0) 80%
+    );
+}

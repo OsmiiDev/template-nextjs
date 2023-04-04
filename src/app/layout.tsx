@@ -1,12 +1,15 @@
-import './globals.css'
+import '@/app/globals.css';
 
-export default function RootLayout({
-  children,
-}: {
+/**
+ * @description - Root layout
+ * @param {React.ReactNode} children - The children of the component
+ * @return {JSX.Element} - The root layout
+ */
+export default function RootLayout({children}: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       {/*
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
@@ -14,5 +17,5 @@ export default function RootLayout({
       <head />
       <body>{children}</body>
     </html>
-  )
+  );
 }
